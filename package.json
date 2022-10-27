@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/app.js",
-     "postinstall": "tsc",
+    "postinstall": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maximilian Schwarzmüller / Academind GmbH",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   }
 }
